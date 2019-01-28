@@ -9,8 +9,8 @@ h1 {
   body {
     background-color: dodgerblue;
   }
-  .purple-text {
-     color: hsla(240, 0, 0, .5);
+  p {
+     color: gray;
   }
   .important {
     font-weight:bold;
