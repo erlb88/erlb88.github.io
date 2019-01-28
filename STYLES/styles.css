@@ -18,6 +18,15 @@ h1 {
   .important:hover {
     background-color:pink;
   }
+  div.a {
+    text-align: center;
+  }
+
+  div.b {
+    text-align: left;
+  }
+
+
   #lead-paragraph {
     color: purple;
     font-weight: bold;
