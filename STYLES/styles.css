@@ -1,3 +1,6 @@
+
+
+
 h1 {
     color: purple;
   }
@@ -15,6 +18,10 @@ h1 {
   .important {
     font-weight:bold;
   }
+
+  .fas fa-dog {color:orange;}
+
+
   .important:hover {
     background-color:pink;
   }
