@@ -3,6 +3,42 @@
 
 *{box-sizing:border-box;}
 
+/*add the flex boxes
+
+background-color: lightgrey;
+  width: 300px;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+
+*/
+
+
+
+.box{
+  height: 600px;
+  width:450px;
+  border:5px solid purple;
+  background: lightgrey;
+  padding: 25px;
+  margin: 25px
+}
+
+
+.container{
+  height:400px
+  background-color:pink;
+
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:center;
+  alignn-items:left;
+
+}
+
+
+
  .flip {
    height:8rem;
    background-color: gray;
@@ -16,7 +52,7 @@
 
 header {
   height:6%;
-  background-color:aqua;
+  background-color:gray;
   color:white;
   /*margin-left:13%;*/
   padding:3% 13%;
