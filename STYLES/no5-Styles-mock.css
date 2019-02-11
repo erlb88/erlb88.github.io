@@ -1,5 +1,22 @@
 /*This is my styling sheet  portion*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
+ .fa-dog {
+   color: pink;
+   
+ }
+
+header >h1{
+  font-family: Satisfy, serif;
+  font-weight: 700;
+  font-size: 70px
+}
+  main >p {
+    font-family: sans-serif;
+  }
+ article > p{
+   font-family: satisfy, serif;
+ }
 
 
 footer {
