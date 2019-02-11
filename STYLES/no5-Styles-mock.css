@@ -2,14 +2,21 @@
 
 
 
-
+footer {
+  font-weight:bold;
+  font-style: oblique;
+  font-size: 150%;
+}
+p {
+  font-weight:100;
+}
 
 
 
 
 .box{
-  height: 600px;
-  width:200px;
+  height: 400px;
+  width:300px;
   border:5px solid purple;
   background: lightgrey;
   padding: 25px;
@@ -22,7 +29,7 @@
   background-color:pink;
   flex-direction:row;
   flex-wrap:nowrap;
-  justify-content:center;
+  justify-content:space-evenly;
   alignn-items:left;
 
 }
