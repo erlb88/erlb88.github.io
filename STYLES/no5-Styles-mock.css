@@ -1,10 +1,12 @@
-/*This is my styling sheet  portion*/
+
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
-
+.breed p:nth-child(2n+1) {background-color:orange;}
  .fa-dog {
-   color: pink;
-
+   color: pink;}
+ nav a:hover {
+   color:magenta;
  }
+
 
 header >h1{
   font-family: Satisfy, serif;
@@ -18,8 +20,11 @@ header >h1{
    font-family: satisfy, serif;
  }
 
-
+ footer a:hover {
+   color :red;
+ }
 footer {
+
   font-weight:bold;
   font-style: oblique;
   font-size: 150%;
@@ -32,7 +37,7 @@ p {
 
 
 .box{
-  height: 400px;
+  height: 450px;
   width:300px;
   border:5px solid purple;
   background: lightgrey;
@@ -42,12 +47,13 @@ p {
 
 .container{
   display: flex;
-  height:400px
+  height:600px;
   background-color:pink;
   flex-direction:row;
   flex-wrap:nowrap;
   justify-content:space-evenly;
-  alignn-items:left;
+
+  align-items: center;
 
 }
 
@@ -57,9 +63,9 @@ p {
    height:8rem;
    background-color: gray;
    padding:1rem;
-   border: 5px solid gray;
-   margin-bottom;1rem;
-   margin-top;1rem;
+   border: 5px solid darkgray;
+   margin-bottom:1rem;
+   margin-top:1rem;
  }
 
 
@@ -68,7 +74,6 @@ header {
   height:6%;
   background-color:gray;
   color:white;
-  /*margin-left:13%;*/
   padding:3% 13%;
 }
 
@@ -108,16 +113,40 @@ section {
   section:last-of-type p a {
   }
 
+/*---------Lesson 06 additional styling  transition, pseudo-selector--------*/
+  a[href="#"] {
+    color: red;
+    font-weight: bolder;
+    }
+
+      section:hover {
+        border: 3px solid red;
+    }
+
+  section a:hover {
+    text-decoration:underline;
+    font-size: 1.5rem;
+    background-color: #c9e9c5;
+    color:blue;
+    text-decoration: underline;
+    font-weight:bolder;
+  }
+
+  li::first-letter {font-size:300%; }
+  footer a:hover {
+    color: purple;
+    font-size:150%;
+    font-family:monospace;
+    font-style:italic;
+  }
 
 
-sidebar {
+
+
+/*sidebar {
   width:20%;
   float:right;
   display:inline-block;
   margin-right:5%;
   margin-bottom:2%;
-}
-
-footer {
-  clear:both;
-}
+}-->*/
