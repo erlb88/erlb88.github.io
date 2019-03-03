@@ -1,6 +1,4 @@
 
-
-/**TEXT definition**/
 header >h1{
   font-family: Arial, serif;
   font-weight: 700;
@@ -33,7 +31,8 @@ p {
 }
 p {
 margin-top: 50px;
-margin-bottom: 10x;
+/*
+margin-bottom: 5x;*/
 margin-right: 10px;
 margin-left: 10px;
 align-items: center;
@@ -51,7 +50,6 @@ section:hover {
   border: 3px solid red;
 }
 
-<style>
  .box{
  height: 250px;
  width:450px;
@@ -81,6 +79,42 @@ section:hover {
 
 
 
+    .box{
+    height: 250px;
+    width:450px;
+    border:rgb(68,68,68);
+    /*
+    background: lightgrey;*/
+    background: rgb(236,183,34);
+    padding: 25px;
+    margin: 10px
+    }
 
+    .container{
+      display: flex;
+      height:350px;
+      background-color:rgb(236,183,34);
+      flex-direction:row;
+      flex-wrap:nowrap;
+      justify-content:space-evenly;
+      margin-bottom: 25px;
+      align-items: center;
+    }
+/* try this section hover*/
+    section:hover {
+      border: 3px solid gray;
+      background-color:rgb(236,183,34);
+      }
 
-</style>
+/* try this section hover*/
+
+/*margin for paragraph*/
+p {
+margin-top: 50px;
+/*
+margin-bottom: 10x;
+*/
+margin-right: 10px;
+margin-left: 10px;
+align-items: center;
+}
