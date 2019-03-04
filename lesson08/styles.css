@@ -1,3 +1,80 @@
+.grid-container {
+  display: grid;
+  grid: 100px / auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  padding-top:35px
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  grid-row-gap:10px;
+}
+.span_3_of_12 {
+  width: 25%;
+}
+
+.span_8_of_12 {
+  width: 66.66%;
+  background-color: gray;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding: 15px;
+    border: 5px solid red;
+
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*grid */
+.grid-container {
+  display: grid;
+  grid: 50px / auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 50px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+  margin-top: 50px;
+}
+/*grid*/
+
+.responsive {
+  width:100%;
+  height:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 header >h1{
   font-family: Arial, serif;
@@ -16,6 +93,20 @@ header >h3{
   font-weight: 700;
   font-size: 17px
 }
+
+header >h4{
+  font-family: Arial, serif;
+  font-weight: 700;
+  font-size: 10px
+}
+
+
+
+
+
+
+
+
 
 body {
   font-family: Arial, serif;
@@ -43,7 +134,7 @@ align-items: center;
 .footer {
   font-family: Arial, serif;
   font-weight: 200;
-  font-size: 2px
+  font-size: 2px;
     position: fixed;
     left: 0;
     bottom: 0;
