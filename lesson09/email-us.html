@@ -21,20 +21,20 @@
 
       <h2>EMAIL INQUIRY</h2>
 
-      <p><label>First Name</label>
-      <input class="w3-input w3-border" name="first" type="text"></p>
+    <label>First Name</label>
+      <input class="w3-input w3-border" name="first" type="text">
 
-      <p><label>Last Name</label>
-      <input class="w3-input w3-border" name="last" type="text"></p>
+      <label>Last Name</label>
+      <input class="w3-input w3-border" name="last" type="text">
 
-      <p><label>Email Address</label>
-      <input class="w3-input w3-border" name="last" type="text"></p>
+<label>Email Address</label>
+      <input class="w3-input w3-border" name="last" type="text">
 
-      <p><label>Subject</label>
-      <input class="w3-input w3-border" name="last" type="text"></p>
+  <label>Subject</label>
+      <input class="w3-input w3-border" name="last" type="text">
 
 
-      <!-- the other label syntax -->
+      <!--
 
       <fieldset class="checkbox">
         <legend>Please check the classes/events you are inquiring</legend>
@@ -80,10 +80,50 @@
         <span class="checkmark"></span>
         </label>
       </fieldset>
+-->
+      <form action="/action_page.php">
+
+        <input type="radio" name="choice" value="BASIC"> BASIC<br>
+        <input type="radio" name="choice" value="INTERMEDIATE"> INTERMEDIATE<br>
+        <input type="radio" name="choice" value="ADVANCE"> ADVANCE<br>
+        <input type="radio" name="choice" value="Corporate Events"> Corporate Events<br>
+        <input type="radio" name="choice" value="Birthdays"> Birthdays<br>
+        <input type="radio" name="choice" value="Fund Raising"> Fund Raising<br>
+        <input type="radio" name="choice" value="other"> Other<br>
+
+
+
+
+
 
 
         <input type="submit" value="Submit">
-        <input type="reset">
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <form method="Get"
+
+        <input type="submit">
+
+      </form>
 
 
   </body>
