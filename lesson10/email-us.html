@@ -10,25 +10,137 @@
 
     <nav>
     <!-- <a href="Lesson05-assignment.html" target="Lesson05-assignment.html">About   /</a>*-->
-    <a href="index.html" target="index.html">ABOUT US  /</a>
+    <a href="index.html"  target="index.html">ABOUT US  /</a>
     <a href="class-sched.html" target="class-sched">CLASSES & SPECIAL EVENTS  /</a>
     <a href="instructors.html" target="instructors.html">INSTRUCTORS   /</a>
     <a href="email-us.html" target="email-us.html">EMAIL US   /</a>
     </nav>
-
   </header>
+
+
   <form action="/action_page.php">
-
       <h2>EMAIL INQUIRY</h2>
+      <label>First Name</label>
+        <input class="w3-input w3-border" name="first" type="text">
+      <label>Last Name</label>
+        <input class="w3-input w3-border" name="last" type="text">
+      <label>email</label>
+        <input class="w3-input w3-border" name="email" type="text">
+      <br>
 
-    <label>First Name</label>
-      <input class="w3-input w3-border" name="first" type="text">
-    <label>Last Name</label>
-      <input class="w3-input w3-border" name="last" type="text">
-    <label>email</label>
-      <input class="w3-input w3-border" name="email" type="text">
+      </html>
+      <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+  image {
+    padding:25px;
+    margin:25px;
+  }
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
 
 
+
+
+      </style>
+
+
+<body>
+  <br>
+  <form>
+        <input type="checkbox" name="choice" value="BASIC"> BASIC<br>
+        <input type="checkbox" name="choice" value="INTERMEDIATE"> INTERMEDIATE<br>
+        <input type="checkbox" name="choice" value="ADVANCE"> ADVANCE<br>
+        <input type="radio" name="choice" value="Corporate Events"> Corporate Events<br>
+        <input type="radio" name="choice" value="Birthdays"> Birthdays<br>
+        <input type="radio" name="choice" value="Fund Raising"> Fund Raising<br>
+        <input type="radio" name="choice" value="other"> Other<br>
+        <input type="submit"  value="Submit">
+  <br>
+
+
+
+<div class="columns">
+<!--  <img src="images/annie-spratt-450564-unsplash.jpg" width=250px  height=350px   padding= 10px  border-radius= 10px alt="This is a photo of two kids doing archery"  >
+-->
+
+<p>Play, pause and then play the video again.</p>
+
+<video id="myVideo" width="320" height="176" controls>
+  <source src="SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+<source src="SampleVideo_1280x720_1mb.ogv" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+<script>
+var vid = document.getElementById("myVideo");
+vid.onplaying = function() {
+  alert("Video incorporated for Accessiility strategy requirement for Lesson10");
+};
+</script>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="columns">
+  <img src="images/annie-spratt-450564-unsplash.jpg" width=250px  height=350px   padding= 10px  border-radius= 10px alt="This is a photo of two kids doing archery"  >
+</div>
+
+<div class="columns">
+  <img src="images/annie-spratt-450564-unsplash.jpg" width=250px  height=350px   padding= 10px  border-radius= 10px alt="This is a photo of two kids doing archery"  >
+</div>
+
+
+<p>  <small>
+  Nondiscriminatory Policy:
+  Next Step Archery admits students of any race, gender presentation,
+  sexuality, religion, national origin or ethnic origin to all rights,
+  privileges, programs and activities available to students at the school.
+  We do not discriminate in administration of our educational policies,
+  admission policies and other school administered programs. All students
+  are welcome and valuable members of our community.
+</small>
+</p>
+</div>
+
+
+
+
+
+
+
+<!--
+
+  <form>
         <input type="checkbox" name="choice" value="BASIC"> BASIC<br>
         <input type="radio" name="choice" value="INTERMEDIATE"> INTERMEDIATE<br>
         <input type="radio" name="choice" value="ADVANCE"> ADVANCE<br>
@@ -36,24 +148,19 @@
         <input type="radio" name="choice" value="Birthdays"> Birthdays<br>
         <input type="radio" name="choice" value="Fund Raising"> Fund Raising<br>
         <input type="radio" name="choice" value="other"> Other<br>
-
+<br>
         <input type="submit"  value="Submit">
 
       </form>
-  <img src="images/footerimage.jpg"  width=2000px  height=200px  alt="this is a footer image of the site  containing arrows"  >
 
+<br>
+      <img src="images/annie-spratt-450564-unsplash.jpg" width=250px  height=350px   padding= 10px  border-radius= 10px alt="This is a photo of two kids doing archery"  >
+<br>
 
-
-
-
-      <div class ="footer">
+-->
 
   <!--      <img src="images/footerimage.jpg"    alt="footer"  class="responsive" >-->
-      <img src="images/annie-spratt-450564.jpg"  width=200px  height=200px  alt="This is a photo of two kids doing archery"  >
 
-      <small>s
-      Nondiscriminatory Policy:
-      Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.
 
       </small>
       </footer>
