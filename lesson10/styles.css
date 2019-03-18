@@ -1,3 +1,17 @@
+nav {
+  text-align:center;
+  padding: .5rem;
+  background-color: yellow:inherit;
+}
+ nav a {
+   padding: .5 rem;
+   margin .5 rem;
+ }
+ footer {
+   width: 1800px;
+   height: inherit;
+ }
+
 .grid-container {
   display: grid;
   grid: 100px / auto auto auto;
