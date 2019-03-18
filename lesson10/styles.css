@@ -352,4 +352,7 @@ align-items: center;
   .columns {
     width: 100%;
   }
+
+img {
+  padding:5px;
 }
