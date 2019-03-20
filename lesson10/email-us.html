@@ -17,53 +17,34 @@
     </nav>
   </header>
 
+  <style>
+  p3 {
+    background-color: yellow;
+  }
+  label3{
+    background-color: yellow;
+  }
+
+  </style>
 
   <form action="/action_page.php">
       <h2>EMAIL INQUIRY</h2>
+      <p3> <strong>Required input are highligted in yellow and marked with an * </strong></p3>
+      <br>
       <label>First Name</label>
         <input class="w3-input w3-border" name="first" type="text">
       <label>Last Name</label>
         <input class="w3-input w3-border" name="last" type="text">
-      <label>email</label>
-        <input class="w3-input w3-border" name="email" type="text">
+      <label3>email*</label3>
+        <input class="w3-input w3-border"  name="email"  type="text">
       <br>
 </form>
 
-<!--
-      <style>
-      .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        background-color: #2196F3;
-        padding: 10px;
-      }
-
-      .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        padding: 20px;
-        font-size: 30px;
-        text-align: center;
-      }
-  image {
-    padding:25px;
-    margin:25px;
-  }
-  .columns {
-    float: left;
-    width: 33.3%;
-    padding: 8px;
-  }
-
-
-
-
-      </style>
-
--->
-
   <br>
+
   <form>
+      <p3> <strong>Please choose one * </strong></p3>
+      <br>
         <input type="checkbox" name="choice" value="BASIC"> BASIC<br>
         <input type="checkbox" name="choice" value="INTERMEDIATE"> INTERMEDIATE<br>
         <input type="checkbox" name="choice" value="ADVANCE"> ADVANCE<br>
@@ -72,7 +53,9 @@
         <input type="radio" name="choice" value="Fund Raising"> Fund Raising<br>
         <input type="radio" name="choice" value="other"> Other<br>
         <input type="submit"  value="Submit">
+
     </form>
+
   <br>
 
 
