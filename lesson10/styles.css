@@ -1,3 +1,11 @@
+#p01{
+  color:red;
+}
+
+
+
+
+
 nav {
   text-align:center;
   padding: .5rem;
@@ -123,8 +131,8 @@ header >h4{
 
 
 body {
-  font-family: Arial, serif;
   font-weight: 200;
+  font-family: Arial, serif;
   font-size: 17px
 }
 
