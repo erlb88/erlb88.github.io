@@ -1,0 +1,30 @@
+nav{
+    text-align: inherit;
+    padding: 1rem;
+    margin: 1rem;
+            }
+nav a{
+ padding: 1rem;
+ margin: 1 rem;
+}
+input{
+ text-align: inherit;
+ padding: 1rem;
+ margin: 1rem;
+         }
+input a {
+padding: 10rem;
+margin: 10rem;
+}
+
+
+ p3 {
+   background-color: yellow;
+ }
+ label3{
+   background-color: yellow;
+ }
+
+input3{
+  background-color: yellow;
+}
